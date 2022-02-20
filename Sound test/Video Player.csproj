@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Sound_test</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Exit.png" />
+    <None Remove="Assets\Library.png" />
+    <None Remove="Assets\LoopOff.png" />
+    <None Remove="Assets\LoopOn.png" />
+    <None Remove="Assets\Maximize.png" />
+    <None Remove="Assets\Minimize.png" />
+    <None Remove="Assets\Pause.png" />
+    <None Remove="Assets\Play.png" />
+    <None Remove="Assets\TopMostFalse.png" />
+    <None Remove="Assets\TopMostTrue.png" />
+    <None Remove="Assets\UnMaximize.png" />
+    <None Remove="Library\Library.txt" />
+    <None Remove="MMP.ico" />
+    <None Remove="Settings.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Exit.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Library.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\LoopOff.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\LoopOn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Maximize.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Minimize.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Pause.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Play.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\TopMostFalse.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\TopMostTrue.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\UnMaximize.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Library\Library.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="MMP.ico" />
+    <Resource Include="Settings.png" />
+  </ItemGroup>
+
+</Project>

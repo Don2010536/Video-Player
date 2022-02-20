@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="Sound_test.CustomControls.LibraryContent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sound_test.CustomControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="800">
+	<Grid x:Name="Background" Background="#FF333337">
+		<Button x:Name="PlayButton" Content="PLAY" HorizontalAlignment="Left" Margin="583,20,0,20" Background="#FF3E8900" BorderBrush="{x:Null}" Foreground="White" FontSize="16" Click="PlayButton_Click" Width="207">
+			<Button.Resources>
+				<Style TargetType="Border">
+					<Setter Property="CornerRadius" Value="12"/>
+				</Style>
+			</Button.Resources>
+			<Button.Effect>
+				<DropShadowEffect ShadowDepth="0" BlurRadius="5" Opacity="1"/>
+			</Button.Effect>
+		</Button>
+		<TextBlock x:Name="FileName" HorizontalAlignment="Left" Margin="10,0,0,0" Text="File Name" TextWrapping="Wrap" VerticalAlignment="Center" Width="568" FontSize="20" Foreground="White"/>
+
+	</Grid>
+</UserControl>
